@@ -200,7 +200,7 @@ module ServiceBusDataOwnerRoleAssignmentUser 'app/servicebus-Access.bicep' = [fo
   }
 }]
 
-// MonitoringMetrics Publisher role assignment for Application Insights  
+// Monitoring Metrics Publisher role assignment for Application Insights  
 module appInsightsMetricsPublisherRole 'app/appinsights-Access.bicep' = {
   name: 'appInsightsMetricsPublisher'
   scope: rg
